@@ -104,6 +104,19 @@ a {
 
 .produto__quantidade {
 	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.quantidade__legenda {
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 5px;
+}
+
+.quantidade__box {
+	display: flex;
+	align-items: center;
 }
 
 .produto__quantidade button {
@@ -112,11 +125,7 @@ a {
 }
 
 .produto__quantidade button,
-.produto__quantidade div {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
+.produto__quantidade .number {
 	width: 20px;
 	height: 30px;
 
@@ -129,8 +138,9 @@ a {
 	text-align: center;
 }
 
-.produto__quantidade div {
+.produto__quantidade .number {
 	width: 40px;
+	line-height: 30px;
 }
 
 .produto__btncomprar {
