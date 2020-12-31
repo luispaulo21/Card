@@ -25,7 +25,7 @@ miniaturasDoProduto.forEach((item, index) => {
 
 const btnQuantidadeMenos = document.querySelector(".produto__quantidade .menos");
 const btnQuantidadeMais = document.querySelector(".produto__quantidade .mais");
-const quantidadeDoProduto = document.querySelector(".produto__quantidade div");
+const quantidadeDoProduto = document.querySelector(".produto__quantidade .number");
 
 btnQuantidadeMenos.addEventListener("click", () => {
 	let contador = +quantidadeDoProduto.innerText - 1;
